@@ -1,19 +1,12 @@
 import React from 'react';
-import SimpleTodo from './components/18.2-SimpleToDo/18.2-SimpleToDo';
-
-const data = [
-    { name: "CSS", completed: true },
-    { name: "JavaScript", completed: true },
-    { name: "Learn React", completed: false },
-    { name: "Learn mongoDB", completed: false },
-    { name: "Learn Node JS", completed: false },
-]
-
+import Time from './components/18.3-Time/18.3-Time';
+import './app-style.css'
 
 export default () => {
     return (
-        <div>
-            <SimpleTodo data={data} />
-        </div>
+        <main>
+            <Time />
+        </main>
     )
 }
+
