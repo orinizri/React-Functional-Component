@@ -1,13 +1,19 @@
-import React from 'react'; 
-import TextToRead from './components/18.1-ReadMore/18.1-TextToRead';
+import React from 'react';
+import SimpleTodo from './components/18.2-SimpleToDo/18.2-SimpleToDo';
 
-const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus vitae doloremque minus quibusdam quod cum. Delectus nam sit dolores architecto facilis tempora iure quam, illo, molestiae fugiat consequuntur aliquid nihil laboriosam cum? Nesciunt, maxime ea? Totam, rerum nam? Fugiat quas perspiciatis harum aspernatur nobis, est unde culpa voluptate quos."
-const maxLength = 50;
+const data = [
+    { name: "CSS", completed: true },
+    { name: "JavaScript", completed: true },
+    { name: "Learn React", completed: false },
+    { name: "Learn mongoDB", completed: false },
+    { name: "Learn Node JS", completed: false },
+]
+
 
 export default () => {
     return (
         <div>
-            <TextToRead text={text} maxLength={maxLength}/>
+            <SimpleTodo data={data} />
         </div>
     )
 }
