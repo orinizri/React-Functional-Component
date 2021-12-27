@@ -1,11 +1,10 @@
 import React from 'react';
-import Time from './components/18.3-Time/18.3-Time';
 import './app-style.css'
-
+import StarWarsApi from './components/19.1-API/19.1-API';
 export default () => {
     return (
         <main>
-            <Time />
+            <StarWarsApi />
         </main>
     )
 }
