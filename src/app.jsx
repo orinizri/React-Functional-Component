@@ -1,11 +1,12 @@
 import React from 'react';
 import './app-style.css'
-import StarWarsApi from './components/19.1-API/19.1-API';
-export default () => {
+import {CleanUp} from './components/20.1-CleanUp/20.1-CleanUp';
+const App = () => {
     return (
         <main>
-            <StarWarsApi />
+            <CleanUp />
         </main>
     )
 }
 
+export default App;
