@@ -1,10 +1,10 @@
 import React from 'react';
 import './app-style.css'
-import {CleanUp} from './components/20.1-CleanUp/20.1-CleanUp';
+import {Edit} from './components/21.1-Edit/21.1-Edit'
 const App = () => {
     return (
         <main>
-            <CleanUp />
+            <Edit />
         </main>
     )
 }
