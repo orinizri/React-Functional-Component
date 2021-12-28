@@ -1,10 +1,10 @@
 import React from 'react';
 import './app-style.css'
-import {Edit} from './components/21.1-Edit/21.1-Edit'
+import { Video } from './components/21.2-Video/21.2-Video';
 const App = () => {
     return (
         <main>
-            <Edit />
+            <Video />
         </main>
     )
 }
