@@ -1,10 +1,10 @@
 import React from 'react';
 import './app-style.css'
-import { Video } from './components/21.2-Video/21.2-Video';
+import { TogglePictures } from './components/21.3-ToggleRef/21.3-Toggle';
 const App = () => {
     return (
         <main>
-            <Video />
+            <TogglePictures />
         </main>
     )
 }
